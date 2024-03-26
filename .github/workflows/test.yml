@@ -1,7 +1,10 @@
 name: Test4 Build
 
+  #推送Tag时触发
 on:
-  workflow_dispatch:
+  push:
+    tags:
+      - "*":
 
 jobs:
   build:
