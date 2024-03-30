@@ -1,10 +1,10 @@
 name: Test4 Build
 
-  #推送Tag时触发
 on:
   push:
-    tags:
-      - "*":
+    # 根据branch或者tags来触发
+    branches:
+      - fongmi4x
 
 jobs:
   build:
