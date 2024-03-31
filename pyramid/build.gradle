@@ -11,7 +11,7 @@ android {
         targetSdk 28
         ndk { abiFilters "armeabi-v7a" }
         python {
-            buildPython "/Users/bestpvp/.pyenv/shims/python"
+       #     buildPython "/Users/bestpvp/.pyenv/shims/python"
             pip {
                 install "lxml"
                 install "requests"
