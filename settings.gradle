@@ -36,6 +36,6 @@ include ':jianpian'
 include ':forcetech'
 include ':ijkplayer'
 include ':pyramid'
-rootProject.name = "公瑾4.4"
+rootProject.name = "fongmi4.4"
 gradle.ext.androidxMediaModulePrefix = 'media-'
-apply from: file("./media-1.2.0/core_settings.gradle")
+apply from: file("../media-1.2.0/core_settings.gradle")
